@@ -1,0 +1,7 @@
+Berikut ini penjelasan Konten company profile yang terdiri dari about, portofolio, service, career, blog, contact.
+- about : berisi profil company, deskripsi sejarah company atau struktur organisasi.
+- portofolio : berisi contoh project/ produk yang pernah dikembangkan company tersebut dengan client.
+- service : berisi deskripsi jenis layanan yang diberikan company tersebut.
+- career : berisi info lowongan pekerjaan di company tersebut.
+- blog : berisi kumpulan artikel berita yang berkaitan dengan jasa company tersebut.
+- contact : alamat, kontak telepon, email company, untuk tugas ini tidak perlu menambahkan contact form
