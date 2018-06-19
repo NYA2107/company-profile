@@ -16,16 +16,26 @@
 .back img{
   width: 50px;
 }
+.white{
+  position: fixed;
+  margin-left: -20px;
+  margin-top: -20px;
+  width: 120%;
+  filter: blur(5px);
+}
 .main-container{
   width:100%;
   height: 100vh;
   overflow: auto;
-  background-image: url('../img/bg2.jpg');
+  /* background-image: url('../img/bg2.jpg'); */
+
 }
 .left-container{
   width: 448px;
   height: auto;
   margin: 5px;
+  margin-top: 100px;
+  margin-left: -450px;
   cursor: pointer;
 }
 .img-container{
@@ -33,17 +43,18 @@
   height: 150px;
   overflow: hidden;
   -webkit-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.58);
--moz-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.58);
-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.58);
-z-index: 1;
-transition: 0.5s all;
+  -moz-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.58);
+  box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.58);
+  z-index: 1;
+  transition: 0.5s all;
+  border-radius: 5px;
 }
 .img-container:hover{
-  transform: scale(1.1) translate(-50px,-20px);
+  transform: scale(1.1) translate(-50px,-10px);
 }
 .img-container img{
   height: 149px;
-  opacity: 0.97;
+  opacity: 0.8;
 }
 .description-container{
   width: 448px;
@@ -52,13 +63,13 @@ transition: 0.5s all;
   color: white;
   transition: 0.5s all;
   -webkit-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.58);
--moz-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.58);
-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.58);
-z-index: 0;
+  -moz-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.58);
+  box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.58);
+  z-index: 0;
 
 }
 .description-container:hover{
-  transform: scale(1.1) translate(-50px,20px);
+  transform:  translate(-50px,10px);
 }
 .description-container h3{
   margin: 15px;
@@ -70,31 +81,31 @@ z-index: 0;
 
 .right-container{
   width: 400px;
-  height: 500px;
-  margin: 5px;
+  height: 100vh;
+  margin-left: 230px;
+  position: fixed;
   transition: 0.5s all;
   background-color: rgba(255,255,255,0.2);
   -webkit-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.58);
--moz-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.58);
-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.58);
-z-index: 0;
+  -moz-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.58);
+  box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.58);
+  z-index: 0;
 }
 .right-container:hover{
-  transform: scale(1.02) translateX(20px);
+  transform: translateX(50px);
 }
 .rating-container{
   width:400px;
-  height: 120px;
+  height: 20%;
   background-color: rgba(255,255,255,0.2);
 }
 .comment-container{
   width: 400px;
-  height: 380px;
-  /* background-color: rgba(0,0,0,0.9); */
+  height: 80%;
 }
 .comment-form{
   width: 380px;
-  height: 80px;
+  height: 15%;
   background-color: yellow;
   margin-top: 5px;
   background-color: rgba(0,0,0,0.8);
@@ -121,19 +132,19 @@ z-index: 0;
 }
 .comment{
   width: 380px;
-  height: 280px;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.3);
   margin-top: 5px;
   overflow: auto;
   border:0.5px solid grey;
   padding: 0px 5px 0px 5px;
   border-radius: 5px;
+  height: 80%;
 }
 .comment-card{
   margin-top: 25px;
   margin-bottom: 20px;
   width: 320px;
-  background-color: rgba(255,255,255,1);
+  background-color: rgba(255,255,255,0.9);
   padding-bottom: 10px;
   border-radius: 20px 0px 10px 0px;
   transition: 0.5s all;
@@ -145,7 +156,7 @@ z-index: 0;
 .comment-avatar{
   width: 100px;
   height: 100px;
-    background-color: rgb(255,255,255,1);
+  background-color: rgb(255,255,255,1);
   border-radius: 50px;
   margin-top: -20px;
   margin-left: -20px;
