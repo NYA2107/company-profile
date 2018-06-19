@@ -1,0 +1,76 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-container{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(238, 239, 208);
+}
+.login-container{
+  width: 400px;
+  height: 480px;
+  border-radius: 5px;
+  background-image: url('../img/career.jpg');
+  background-size: 1000px auto;
+  opacity: 0.9;
+  margin-top: 50px;
+  transition: 0.5s all;
+  -webkit-box-shadow: 0px 0px 14px 3px rgba(0,0,0,0.79);
+-moz-box-shadow: 0px 0px 14px 3px rgba(0,0,0,0.79);
+box-shadow: 0px 0px 14px 3px rgba(0,0,0,0.79);
+}
+.login-container:hover{
+  transform: scale(1.02);
+}
+.login-container img{
+  width: 130px;
+  margin-top: -50px;
+  opacity: 0.9;
+}
+
+.login-container div{
+  width: 100%;
+  height: 200px;
+  margin-top: -20px;
+}
+.login-container h1{
+  width: 100%;
+  text-align: center;
+  margin-top: -50px;
+  color: white;
+  opacity: 0.8;
+}
+.login-container div form div{
+  width: 100%;
+}
+.login-container div form div .input-text{
+  width: 70%;
+  height: 30px;
+  border-radius: 5px;
+  opacity: 0.6;
+  font-size: 14pt;
+  text-align: center;
+}
+.login-container div form div div{
+  width: 70%;
+  height: 20px;
+  color: white;
+  background-color:rgba(114, 114, 114,0.3);
+  padding: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+.login-container div form div .input-submit{
+  width: 70%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(188, 45, 32);
+  color: white;
+  cursor: pointer;
+}
