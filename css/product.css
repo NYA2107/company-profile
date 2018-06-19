@@ -156,7 +156,7 @@
 .comment-avatar{
   width: 100px;
   height: 100px;
-  background-color: rgb(255,255,255,1);
+  background-color: rgb(255, 255, 255,0.4);
   border-radius: 50px;
   margin-top: -20px;
   margin-left: -20px;
@@ -187,4 +187,17 @@
   color: white;
   border-radius:5px;
   text-indent: 50px;
+}
+.delete-comment{
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 20px;
+  color: white;
+  background-color: rgb(158, 33, 33);
+  cursor: pointer;
+  transition: 0.5s all;
+}
+.delete-comment:hover{
+  transform: translateX(10px);
 }
