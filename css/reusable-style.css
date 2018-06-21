@@ -7,6 +7,10 @@
 	justify-content: center;
 
 }
+.flex-j-e{
+	justify-content: flex-end;
+
+}
 .flex-al-s{
 	align-items: flex-start;
 }
